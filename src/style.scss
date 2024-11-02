@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  // border: red solid;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+
+  @media (max-width: 500px) {
+  }
+}
+
+input {
+  margin-left: 90px;
+  margin-top: 12px;
+
+  @media (max-width: 500px) {
+  }
+}
+
+button {
+  // border: yellow solid;
+  margin: 8px;
+  padding: 5px 10px;
+  border-radius: 7px;
+  background-color: #60c1e2;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.6); /* Efeito hover */
+  }
+
+  @media (max-width: 500px) {
+  }
+}
+
+.botao {
+  padding: 5px;
+  margin-left: 90px;
+
+  @media (max-width: 500px) {
+  }
+}
+
+.texto {
+  // border: yellow solid;
+  position: absolute;
+  margin-left: 90px;
+  margin-bottom: 400px;
+  transform: scale(0.3);
+
+  @media (max-width: 500px) {
+  }
+}
+
+.img1 {
+  // border: green solid;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-right: 800px;
+  margin-top: 200px;
+
+  @media (max-width: 500px) {
+  }
+}
+
+.img2 {
+  //border: red solid;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 180px;
+  transform: scale(0.5);
+
+  @media (max-width: 500px) {
+  }
+}
+
+h3 {
+  margin-left: 90px;
+  color: black;
+
+  @media (max-width: 500px) {
+  }
+}
